@@ -1,5 +1,6 @@
 package dk.magnusjensen.oregenmod;
 
+import dk.magnusjensen.oregenmod.config.ConfigHolder;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ import java.util.stream.Collectors;
 @Mod("oregenmod")
 public class OreGenMod
 {
+    public static final String MOD_ID = "oregenmod";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
